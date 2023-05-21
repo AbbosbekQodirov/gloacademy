@@ -1,0 +1,439 @@
+*{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color: black;
+}
+.navbar{
+    display: flex;
+    width: 100%;
+    height: 80px;
+    background-color: rgb(32,32,45);
+    color: white;
+    align-items: center;
+}
+.logo{
+    width: 65%;
+    position: relative;
+    padding-left: 15%;
+}
+#logo1{
+    position: absolute;
+}
+.logo span{
+    font-size: 14px;
+    line-height: 32px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 36px;
+}
+.tarmoqlar{
+    width: 29%;
+}
+.tarmoqlar img{
+    margin-left: 10px;
+    transition: all .3s ease;
+}
+.tarmoqlar img:hover{
+    transform: scale(1.4);
+    border-radius: 50%;
+    border: 1px so9lid white;
+    box-shadow: 0px 0px 20px 1px white;
+}
+.start{
+    width: 100%;
+    background: linear-gradient(180deg, rgb(32,32,45), black);
+    display: flex;
+    justify-content: center;
+    padding-top: 80px;
+    padding-bottom: 100px;
+}
+.haqida{
+    width: 33%;
+    margin-left: 10%;
+    padding-top: 50px;
+}
+.admin{
+    width: 45%;
+}
+.haqida .text1{
+    color: rgb(255,187,1);
+    font-size: 20px;
+}
+.haqida h1{
+    color: white;
+    font-size: 45px;
+    line-height: 60px;
+}
+.haqida p{
+    color: white;
+    width: 90%;
+    line-height: 30px;
+}
+.btn{
+    width: 230px;
+    height: 50px;
+    border-radius: 5px 5px 10px 10px;
+    border: none;
+    background-color: rgb(254,203,55);
+    margin-top: 20px;
+    font-weight: 550;
+    border-bottom: 5px solid rgb(182,133,0);
+    transition: all .5s ease;
+    line-height: 50px;
+    text-align: center;
+    font-size: 14px;
+    overflow: hidden;
+}
+.btn-click{
+    width: 100%;
+    height: 300px;
+}
+.haqida button:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 0px 15px .5px rgb(156, 156, 156);
+    background: linear-gradient(90deg, rgb(252, 235, 190), rgb(245, 196, 61) );
+}
+.admin img{
+    width: 60%;
+    margin-left: 20%;
+    transition: all .3s ease;
+}
+.admin img:hover{
+    animation: anime3 1s ease;
+}
+@keyframes anime3 {
+    0%{
+        transform: scale(1);
+    }
+    30%{
+        transform: scale(1.2);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+.job{
+    width: 100%;
+    background-color:black;
+    padding-bottom: 100px;
+}
+.text2{
+    width: 50%;
+    color: white;
+    font-size: 30px;
+    font-weight: 550;
+    margin-left: 15%;
+    line-height: 150px;
+}
+.cardlar{
+    width: 70%;
+    margin-left: 15%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.card{
+    width: 270px;
+    height: 250px;
+    color: white;
+}
+.card img:hover{
+    animation: anime 1s ease;
+}
+@keyframes anime {
+    0%{
+        transform: translateY(0px);
+        transform: rotate(180deg);
+    }
+    30%{
+        transform: translateY(-15px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+    
+}
+.card p{
+    line-height: 30px;
+    font-size: 14px;
+}
+.loyihalar{
+    width: 100%;
+    padding-bottom: 100px;
+    background: linear-gradient(0deg, rgb(32,32,45), black);
+}
+.slide1{
+    width: 70%;
+    display: flex;
+    margin-left: 15%;
+}
+.haqida2{
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+    margin-left: 80px;
+}
+.haqida2 h3{
+    width: 100%;
+}
+
+.box1,.box2,.box3{
+    height: 200px;
+}
+.box1, .box2{
+    position: relative;
+    width: 40%;
+    height: 80px;
+    padding-left: 40px;
+}
+.box3{
+    position: relative;
+    width: 85%;
+    padding-left: 40px;
+}
+.icon{
+    position: absolute;
+    left: 0px;
+    top: 8px;
+}
+.textlar span{
+    font-weight: bold;
+    line-height: 30px;
+}
+.textlar{
+    line-height: 24px;
+}
+.contakt{
+    background-color: rgb(32,32,45);
+    padding-bottom: 100px;
+}
+.login{
+    width: 340px;
+    height: 370px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: -2px 3px 1px 2px rgb(187, 143, 21);
+}
+.text3{
+    width: 75%;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 40px;
+    font-weight: bold;
+    line-height: 30px;
+    margin-bottom: 10px;
+}
+.login input{
+    width: 75%;
+    height: 45px;
+    margin-left: 10%;
+    margin-top: 14px;
+    border-radius: 5px;
+    background-color: rgb(233, 233, 233);
+    border: none;
+    padding-left: 20px;
+}
+.btn1{
+    width: 80%;
+    height: 50px;
+    margin-left: 10%;
+    margin-top: 20px;
+    border-radius: 5px;
+    background: linear-gradient(0deg, rgb(32,32,45), black);
+    background: linear-gradient(180deg, rgb(253,219,109),rgb(255,188,5));
+    border: none;
+    border-bottom: 5px solid rgb(182,133,0);
+    font-weight: bold;
+}
+.btn1:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 0px 15px .5px rgb(105, 104, 104);
+    background: linear-gradient(90deg, rgb(120, 120, 168), rgb(32,32,45) );
+    color: white;
+}
+.nom{
+    font-size: 21px;
+    font-weight: bold;
+}
+.textlar2{
+    line-height: 50px;
+}
+.haqida3{
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+    margin-left: 80px;
+}
+.textlar2 img{
+    margin-right: 18px;
+    transition: all .5s ease;
+}
+.textlar2 img:hover{
+    animation:  anime2 2s ease;
+}
+@keyframes anime2{
+    0%{
+        transform: scale(1);
+    }
+    30%{
+        transform: scale(2);
+    }
+    60%{
+        transform: rotate(360deg);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+.text4{
+    margin-left: 50px;
+    text-decoration: underline;
+    color: white;
+}
+
+.scrollToTop-btn{
+    z-index: 999;
+    position: fixed;
+    background-color:rgb(255,187,1);
+    color: rgb(32,32,45);
+    width: 45px;
+    height: 45px;
+    right: 0;
+    bottom: 10px;
+    font-size: 22px;
+    text-align: center;
+    line-height: 45px;
+    border-radius: 3px;
+    cursor: pointer;
+    opacity: 0;
+    transition: all .3s ease;
+}
+.scrollToTop-btn.active{
+    right: 20px;
+    opacity: 1;
+    transform: rotate(360deg);
+}
+.reveal{
+    position: relative;
+    transform:  translateY(50px);
+    opacity: 0;
+    transition: all 1.3s ease;
+}
+.reveal.active{
+    position: relative;
+    transform:  translateY(0px);
+    opacity: 1;
+}
+@media (max-width: 446.9px){
+    .navbar{
+        justify-content: space-between;
+    }
+    .logo{
+        width: 40%;
+        padding: 20px;
+    }
+    .tarmoqlar{
+        width: 40%;
+    }
+    .logo1{
+        left: 0px !important;
+    }
+    .start{
+        text-align: center;
+    }
+    .admin{
+        position: absolute;
+        width: 60% !important;
+        top: 100px;
+        left: 15%;
+    }
+    .haqida{
+        width: 75%;
+        margin: 0 auto;
+        margin-left: 12%;
+        margin-top: 30px;
+    
+    }
+    .haqida h1{
+        font-size: 25px;
+    }
+    .haqida p{
+        width: 100%;
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .job{
+        padding-bottom: 0px;
+    }
+    .text2{
+        width: 80%;
+        margin: 0 auto;
+        margin-left: 15%;
+        font-size: 18px;
+    }
+    .slide1{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .img{
+        width: 120%;
+        margin: 0 auto;
+    }
+    .img img{
+        width: 100%;
+    }
+    .haqida2{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .haqida2 h3{
+        height: 60px;
+        font-size: 15px;
+        line-height: 26px;
+    }
+    .box1, .box2, .box3{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .textlar{
+        font-size: 12px;
+        line-height: 20px;
+    }
+    .textlar span{
+        font-size: 15px;
+    }
+    .text4{
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 100px;
+        color: rgb(165,165,165);
+    }
+    .haqida3{
+        width: 100%;
+        height: 300px;
+        margin:  0 auto;
+        margin-top: 40px;
+        text-align: left;
+        justify-content: start;
+        padding: 0px !important;
+    }
+    .textlar2{
+        line-height: 30px;
+        /* position: absolute; */
+    }
+    .textlar2 img{
+        margin-top: 20px;
+    }
+    .box1-1, .box2-1, .box3-1{
+        margin-left: 0px;
+        padding: 0px;
+    }
+    .text4{
+        margin-top: 0px;
+    }
+}
